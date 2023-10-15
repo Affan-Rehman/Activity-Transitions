@@ -15,6 +15,15 @@
  */
 
 apply plugin: 'com.android.application'
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.0' // Use the latest version
+    }
+}
 
 android {
     compileSdkVersion 32
